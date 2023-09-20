@@ -32,7 +32,7 @@ public class Teacher extends Person {
     }
 
     @Override
-    Person toPerson() {
-        return null;
+    public String toPerson() {
+        return String.format("Teacher");
     }
 }

@@ -35,5 +35,5 @@ public abstract class Person {
                 ", naem='" + naem + '\'' +
                 '}';
     }
-    abstract Person toPerson();
+    abstract String toPerson();
 }

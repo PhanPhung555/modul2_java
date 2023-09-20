@@ -39,7 +39,7 @@ public class Studen extends Person {
     }
 
     @Override
-    Person toPerson() {
-        return null;
+    public String toPerson() {
+        return String.format("Student");
     }
 }
